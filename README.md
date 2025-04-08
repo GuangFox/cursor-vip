@@ -23,11 +23,11 @@ Open the terminal on MacOS/Linux; Open Git Bash on Windows(If you don't have Git
 
 Method 1: Install via GitHub script
 ```bash
-bash <(curl -Lk https://github.com/kingparks/cursor-vip/releases/download/latest/i.sh) GuangFox
+bash <(curl -Lk https://github.com/kingparks/cursor-vip/releases/download/latest/i.sh) 09a1992e41475fa2999eaa106a0b729c
 ```
 Method 2: Install via Gitee script
 ```bash
-bash <(curl -Lk https://gitee.com/kingparks/cursor-vip/releases/download/latest/ic.sh) GuangFox
+bash <(curl -Lk https://gitee.com/kingparks/cursor-vip/releases/download/latest/ic.sh) 09a1992e41475fa2999eaa106a0b729c
 ```
 Method 3: Manually download the binary file
 > download the binary file for the corresponding operating system from the [release](https://github.com/kingparks/cursor-vip/releases) page
@@ -35,7 +35,7 @@ Method 3: Manually download the binary file
 # MaxOS/Linux (linux binary installation also requires additional execution of the content of i.sh)
 sudo mv cursor-vip_xx_xxx /usr/local/bin/cursor-vip;
 chmod +x /usr/local/bin/cursor-vip;
-cursor-vip GuangFox;
+cursor-vip 09a1992e41475fa2999eaa106a0b729c;
 # Windows 
 # double click cursor-vip_xx_xxx.exe
 ```
